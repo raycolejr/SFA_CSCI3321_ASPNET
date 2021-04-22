@@ -4,17 +4,6 @@
     <asp:Label ID="lblCustomerCount" runat="server" ></asp:Label>
     
     <br />
-    <asp:Table ID="tblCustomers" runat="server" CssClass="table table-stripe">
-        <asp:TableHeaderRow>
-            <asp:TableHeaderCell>CustomerID</asp:TableHeaderCell>
-            <asp:TableHeaderCell>Customer Name</asp:TableHeaderCell>
-            <asp:TableHeaderCell>Contact Name</asp:TableHeaderCell>
-            <asp:TableHeaderCell>Address</asp:TableHeaderCell>
-            <asp:TableHeaderCell>City</asp:TableHeaderCell>
-            <asp:TableHeaderCell>Postal Code</asp:TableHeaderCell>
-            <asp:TableHeaderCell>Country</asp:TableHeaderCell>
-        </asp:TableHeaderRow>
-
-    </asp:Table>
+    <!-- We need to dynamically build a table to list all customers -->
     
 </asp:Content>
